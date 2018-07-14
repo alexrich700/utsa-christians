@@ -44,7 +44,8 @@
     transition: all .6s;
     backface-visibility: hidden;
     padding-top: 35px;
-    z-index: 1;
+    /*position: relative;*/
+    /*z-index: 99999;*/
 }
  
 .navbar.navbar-no-bg {
@@ -143,11 +144,11 @@
 @media (max-width: 767px) {
  
      .navbar {
-         padding-top: 0;
-     }
+        padding-top: 0;
+    }
      
     .navbar.navbar-no-bg { 
-        background: #fff; 
+        background: #fff;
     }
     
     .navbar-dark .navbar-toggler { 
@@ -164,6 +165,9 @@
         padding-top: 0.3rem; 
         padding-bottom: 0.3rem;
         color: #000;
+        position: relative;
+        z-index: 1000;
+        overflow: hidden;
     }
 }
 
@@ -181,5 +185,4 @@
  		text-align: center;
  		padding-left: 20px;
  		padding-top: 5px;
- 		z-index: 2;
  }
