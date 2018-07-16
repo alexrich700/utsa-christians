@@ -53,15 +53,28 @@
   background:rgba(0,0,0,0.3);
 }
 
+@media (max-width: 900px) {
+    .carousel-sub-head {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .carousel-head {
+        font-size: 100px;
+        line-height: 100px;
+    }
+}
+
 @media (max-width: 767px) {
  
     .carousel-caption {
     top: 40%;
     }
+    
     .carousel-sub-head {
         color: #ffffff;
-        font-size: 37px;
-        line-height: 37px;
+        font-size: 40px;
+        line-height: 40px;
         font-weight: 700;
         font-family: 'Montserrat';
         max-width: 100%;
@@ -69,16 +82,39 @@
     }
 
     .carousel-head {
-        font-size: 70px;
+        font-size: 80px;
         font-weight: 700;
         color: rgb(255, 235, 125);
         font-family: Montserrat;
-        line-height: 70px;
+        line-height: 80px;
         max-width: 100%;
     }
     
     .carousel img {
         width: auto;
     }
-    
+}
+
+@media (max-width: 475px) {
+    .carousel-sub-head {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    .carousel-head {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 365px) {
+    .carousel-sub-head {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    .carousel-head {
+        font-size: 50px;
+        line-height: 50px;
+    }
 }
