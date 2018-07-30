@@ -1,0 +1,19 @@
+.events-exp-section {
+    height: 50vh;
+}
+
+.events-exp-head {
+    font-size: 48px;
+    font-family: 'Montserrat';
+    line-height: 48px;
+    font-weight: 700;
+    padding-top: 5vh;
+}
+
+.events-exp-sub-head {
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    padding: .5em 20vw;
+}
