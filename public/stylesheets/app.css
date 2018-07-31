@@ -601,7 +601,7 @@
   font-family: 'Montserrat';
 }
 
-.vc-home-studies {
+.vc-bible-studies {
     padding-right: 75px !important;
     padding-left: 75px !important;
     background-image: url(../img/bible-study.jpg) !important;
@@ -717,183 +717,183 @@
 
 /*Events*/
 
-.events-hero {
-    background-image: url("https://images.pexels.com/photos/895449/pexels-photo-895449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-}
+/*.events-hero {*/
+/*    background-image: url("https://images.pexels.com/photos/895449/pexels-photo-895449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: 60vh;*/
+/*}*/
 
-.bottomCTA {
-    background-image: url("https://images.pexels.com/photos/895449/pexels-photo-895449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-}
+/*.bottomCTA {*/
+/*    background-image: url("https://images.pexels.com/photos/895449/pexels-photo-895449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: 75vh;*/
+/*}*/
 
-.bottom-cta-text {
-    margin-top: 30vh;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 700;
-    color: rgb(255, 235, 125);
-    font-family: Montserrat;
-    line-height: 30px;
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
-}
+/*.bottom-cta-text {*/
+/*    margin-top: 30vh;*/
+/*    text-align: center;*/
+/*    font-size: 80px;*/
+/*    font-weight: 700;*/
+/*    color: rgb(255, 235, 125);*/
+/*    font-family: Montserrat;*/
+/*    line-height: 30px;*/
+/*    max-width: 100%;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
 
-.bottom-cta-sub-text {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    color: rgb(255, 235, 125);
-    font-family: Montserrat;
-    line-height: 30px;
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
-}
+/*.bottom-cta-sub-text {*/
+/*    margin-top: 40px;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    font-weight: 400;*/
+/*    color: rgb(255, 235, 125);*/
+/*    font-family: Montserrat;*/
+/*    line-height: 30px;*/
+/*    max-width: 100%;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
 
-.space-divide-left-special {
-    padding-left: 30%;
-    padding-bottom: 10vh;
-}
+/*.space-divide-left-special {*/
+/*    padding-left: 30%;*/
+/*    padding-bottom: 10vh;*/
+/*}*/
 
-.church-invite-para {
-    font-size: 20px;
-    line-height: 20px;
-    font-family: 'Source Sans Pro';
-}
+/*.church-invite-para {*/
+/*    font-size: 20px;*/
+/*    line-height: 20px;*/
+/*    font-family: 'Source Sans Pro';*/
+/*}*/
 
-.img-fluid {
-    width: 100%;
-    height: auto;
-}
+/*.img-fluid {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
 
-.event-para {
-  font-size: 22px;
-  font-family: 'Source Sans Pro';
-}
+/*.event-para {*/
+/*  font-size: 22px;*/
+/*  font-family: 'Source Sans Pro';*/
+/*}*/
 
-#map {
-    height: 40vh;
-    max-width: 100%;
-}
+/*#map {*/
+/*    height: 40vh;*/
+/*    max-width: 100%;*/
+/*}*/
 
-.event-time-main {
-  text-align: center;
-}
+/*.event-time-main {*/
+/*  text-align: center;*/
+/*}*/
 
-.event-time-li {
-  display: inline-block;
-  font-size: 16px;
-  list-style-type: none;
-  padding: 1em;
-  font-weight: 500;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: 'Source Sans Pro';
-  line-height: 25px;
-  letter-spacing: 0.05em;
-  position: relative;
-  z-index: 1
-}
+/*.event-time-li {*/
+/*  display: inline-block;*/
+/*  font-size: 16px;*/
+/*  list-style-type: none;*/
+/*  padding: 1em;*/
+/*  font-weight: 500;*/
+/*  text-align: center;*/
+/*  color: #ffffff;*/
+/*  text-transform: uppercase;*/
+/*  font-family: 'Source Sans Pro';*/
+/*  line-height: 25px;*/
+/*  letter-spacing: 0.05em;*/
+/*  position: relative;*/
+/*  z-index: 1*/
+/*}*/
 
-.event-time {
-  color: #ffeb7d;
-  display: block;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  line-height: 53px;
-  font-family: 'Montserrat';
-  position: relative;
-  z-index: 1;
-}
+/*.event-time {*/
+/*  color: #ffeb7d;*/
+/*  display: block;*/
+/*  font-size: 36px;*/
+/*  font-weight: 700;*/
+/*  letter-spacing: 0.05em;*/
+/*  line-height: 53px;*/
+/*  font-family: 'Montserrat';*/
+/*  position: relative;*/
+/*  z-index: 1;*/
+/*}*/
 
-.church-invite-head {
-  font-size: 50px;
-  line-height: 50px;
-  font-weight: 700;
-  font-family: 'Montserrat';
-}
+/*.church-invite-head {*/
+/*  font-size: 50px;*/
+/*  line-height: 50px;*/
+/*  font-weight: 700;*/
+/*  font-family: 'Montserrat';*/
+/*}*/
 
-.fa-calendar-alt, .fa-home, .fa-phone {
-  padding-right: 10px;
-  padding-left: 5px;
-}
+/*.fa-calendar-alt, .fa-home, .fa-phone {*/
+/*  padding-right: 10px;*/
+/*  padding-left: 5px;*/
+/*}*/
 
-@media (max-width: 767px){
+/*@media (max-width: 767px){*/
   
-  .event-para {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
+/*  .event-para {*/
+/*    font-size: 18px;*/
+/*    font-weight: 400;*/
+/*    text-align: center;*/
+/*    padding-top: 20px;*/
+/*    padding-left: 5vw;*/
+/*    padding-right: 5vw;*/
+/*  }*/
   
-  .spaceDivide {
-    padding: 0;
-  }
+/*  .spaceDivide {*/
+/*    padding: 0;*/
+/*  }*/
   
-  .bottom-cta-text {
-    margin-top: 20vh;
-    font-size: 50px;
-    line-height: 50px;
-  }
+/*  .bottom-cta-text {*/
+/*    margin-top: 20vh;*/
+/*    font-size: 50px;*/
+/*    line-height: 50px;*/
+/*  }*/
   
-  .bottom-cta-sub-text {
-    margin-top: 20px;
-    font-size: 26px;
-    line-height: 26px;
-  }
+/*  .bottom-cta-sub-text {*/
+/*    margin-top: 20px;*/
+/*    font-size: 26px;*/
+/*    line-height: 26px;*/
+/*  }*/
   
-  .event-time-li {
-    font-size: 14px !important;
-    line-height: 14px !important;
-    font-weight: 400;
-    width: 23%;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 15px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+/*  .event-time-li {*/
+/*    font-size: 14px !important;*/
+/*    line-height: 14px !important;*/
+/*    font-weight: 400;*/
+/*    width: 23%;*/
+/*    text-align: center;*/
+/*    margin: auto;*/
+/*    padding-bottom: 15px !important;*/
+/*    padding-left: 0 !important;*/
+/*    padding-right: 0 !important;*/
+/*  }*/
   
-  .event-time {
-    font-size: 30px !important;
-    line-height: 30px !important;
-    padding-top: 5px;
-    text-align: center;
-    width: 100%;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+/*  .event-time {*/
+/*    font-size: 30px !important;*/
+/*    line-height: 30px !important;*/
+/*    padding-top: 5px;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    padding-left: 0 !important;*/
+/*    padding-right: 0 !important;*/
+/*  }*/
   
-  .church-invite-head{
-    font-size: 30px;
-    line-height: 32px;
-    width: 100%;
-    padding: 5vh 5vw 5vh 5vw;
-  }
+/*  .church-invite-head{*/
+/*    font-size: 30px;*/
+/*    line-height: 32px;*/
+/*    width: 100%;*/
+/*    padding: 5vh 5vw 5vh 5vw;*/
+/*  }*/
   
-  .space-divide-left-special {
-    width: 100%;
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
+/*  .space-divide-left-special {*/
+/*    width: 100%;*/
+/*    padding-left: 5vw;*/
+/*    padding-right: 5vw;*/
+/*  }*/
   
-  .church-invite-para {
-    font-size: 16px;
-    line-height: 16px;
-  }
-}
+/*  .church-invite-para {*/
+/*    font-size: 16px;*/
+/*    line-height: 16px;*/
+/*  }*/
+/*}*/
 
 
 
@@ -1098,12 +1098,12 @@
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
 }
 
-.card .nana-b {
+.card .jose {
   height: 400px;
   width: 100%;
   background-color: #4426a8;
   position: relative;
-  background-image: url("https://preview.ibb.co/mvp9NT/20180709_131418.jpg");
+  background-image: url("../img/jose-testimony.jpg");
   background-size: cover;
   background-position: center;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;

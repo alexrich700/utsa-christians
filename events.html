@@ -40,7 +40,7 @@
     
     <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg nav">
       <div class="container">
-          <a class="navbar-brand" href="/"><img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block" alt=""></a>
+          <a class="navbar-brand" href="/"><img src="../public/img/utsalogo.png" style="height: 60px;" class="d-inline-block" alt="Christians on Campus Logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavigation" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -105,19 +105,19 @@
     
     
     <div class="row">
-        <div class="col-md-4 vc-custom">
+        <div class="col-md-4 vc-bible-studies vc-blue">
             <div class="vc-custom-light">Bible</div>
             <div class="vc-custom-bright">Studies</div>
             </br>
             <p class="vc-custom-para">Weekly group bible studies allow us to dig deep into the word and learn more about God.</p>
         </div>
-        <div class="col-md-4 vc-custom-test">
+        <div class="col-md-4 vc-bible-challenge vc-yellow">
             <div class="vc-custom-light">Bible</div>
             <div class="vc-custom-bright">Challenges</div>
             </br>
             <p class="vc-custom-para">Connect with God on your own time while being encouraged by others.</p>
         </div>
-        <div class="col-md-4 vc-custom">
+        <div class="col-md-4 vc-home-meeting vc-blue">
             <div class="vc-custom-light">Home</div>
             <div class="vc-custom-bright">Meetings</div>
             </br>
@@ -125,19 +125,19 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4 vc-custom-test">
+        <div class="col-md-4 vc-college-conferance vc-yellow">
             <div class="vc-custom-light">College</div>
             <div class="vc-custom-bright">Conferances</div>
             </br>
             <p class="vc-custom-para">Take time away from classes to renew your relationship with Christ.</p>
         </div>
-        <div class="col-md-4 vc-custom">
+        <div class="col-md-4 vc-freshman-connect vc-blue">
             <div class="vc-custom-light">Freshman</div>
             <div class="vc-custom-bright">Connect</div>
             </br>
             <p class="vc-custom-para">Start your college experience off on the right foot with gaining frienships with other believing freshman the first week of classes.</p>
         </div>
-        <div class="col-md-4 vc-custom-test">
+        <div class="col-md-4 vc-personal-meeting vc-yellow">
             <div class="vc-custom-light">One on One</div>
             <div class="vc-custom-bright">Meetings</div>
             </br>
@@ -175,6 +175,7 @@
         </button>
     </div>
     
+    
     <script>
       var map;
       function initMap() {
@@ -183,26 +184,10 @@
           zoom: 15
         });
       }
-      
-    const second = 1000,
-    minute = second * 60,
-    hour = minute * 60,
-    day = hour * 24;
-
-    let countDown = new Date('Sep 20, 2018 00:00:00').getTime(),
-    x = setInterval(function() {
-
-    let now = new Date().getTime(),
-        distance = countDown - now;
-
-        document.getElementById('days').innerText = Math.floor(distance / (day)),
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-    }, second)
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwz4k2BtD_XaLSOaZwiNfkpMdJHuvISY&callback=initMap"
-    async defer></script>
+    async defer>
+    </script>
 
 </div>
 
