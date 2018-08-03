@@ -1036,16 +1036,14 @@
 .faith-num-head {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue";
   font-weight: 700;
 }
 
 .faith-num-sub-head {
   color: #777;
-  font-size: 22px;
-  font-family: "Maven Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: none;
+  font-size: 20px;
+  font-family: "Maven Pro","Helvetica Neue";
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -1140,9 +1138,9 @@
   width: 100%;
   background-color: #4426a8;
   position: relative;
-  background-image: url("https://preview.ibb.co/mvp9NT/20180709_131418.jpg");
+  background-image: url("../img/nikki-story.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
 }
 
