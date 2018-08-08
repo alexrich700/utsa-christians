@@ -1290,8 +1290,7 @@
 .card .header .title {
   height: 400px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  align-items: flex-end;
   justify-content: center;
   padding: 0px 15px;
 }
@@ -1300,11 +1299,8 @@
   margin: 0px;
   font-size: 28px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 2px;
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 100vw;
 }
 
 .card .header:after {

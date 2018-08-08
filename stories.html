@@ -97,7 +97,7 @@
                   <!--</div>-->
                   <div class="closebar">
                     <h1>Marco</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn one" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                     Hey, I'm a junior at UTSA majoring in Art.
@@ -111,7 +111,7 @@
                     I recommend anyone who is open to Christian fellowship to join Christians on Campus at UTSA. 
                     They won't regret it! I thank the Lord for finding this club and the memories that I have made with them so far!
                   </p>
-                 <a href="#0" class="readmore one" onclick="sp(this)"></a>
+                 <a href="#0" class="readmore one readmore-one" onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@
                 <div class="content content-two">
                   <div class="closebar">
                     <h1>Nana</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn two" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                     I'm an alumni at UTSA. Prior to meeting Christians on Campus at UTSA I always had questions concerning the Lord Jesus and the Christian faith. 
@@ -143,7 +143,7 @@
                     And the club connected me to a community of believers whose living impressed wad encouraged me to love the Lord more. Even after graduation, i'm still reaping the benefits of being with the group. 
                     Praise the Lord!
                   </p>
-                 <a href="#0" class="readmore two" onclick="sp(this)"></a>
+                 <a href="#0" class="readmore two readmore-two" onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@
                 <div class="content content-three">
                   <div class="closebar">
                     <h1>Raphaell</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn three" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                     Hey everyone, I am a recent graduate of UTSA. I received the Lord Jesus into my heart during my senior year in high school school  and found the meaning of my human life. 
@@ -176,7 +176,7 @@
                     Through this time in college I gained many experiences with God that will keep me pursuing.
 
                   </p>
-                 <a href="#0" class="readmore three"  onclick="sp(this)"></a>
+                 <a href="#0" class="readmore three readmore-three"  onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@
                 <div class="content content-four">
                   <div class="closebar">
                     <h1>Jose</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn four" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                     Hi! I’m an alumnus from UTSA, my major was electrical engineering and I graduated in 2012. 
@@ -220,7 +220,7 @@
                     I'm now a member of the staff of Christians on Campus at UTSA. I look forward to running together with students who love the Lord! 
 
                   </p>
-                 <a href="#0" class="readmore four"  onclick="sp(this)"></a>
+                 <a href="#0" class="readmore four readmore-four"  onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -241,7 +241,7 @@
                 <div class="content content-five">
                   <div class="closebar">
                     <h1>Javier</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn five" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                     As long as I can remember, I had believed in God, but like many I struggled with many inner conflicts and worries. 
@@ -259,7 +259,7 @@
                     I feel like I’ve grown so much with them and the other believers, and despite being caught off-guard by how much more I have to go, 
                     it’s exciting to think I can go even further in my walk with God.
                   </p>
-                 <a href="#0" class="readmore five"  onclick="sp(this)"></a>
+                 <a href="#0" class="readmore five readmore-five"  onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -280,7 +280,7 @@
                 <div class="content content-six">
                   <div class="closebar">
                     <h1>Nikki</h1>
-                      <a href="#0" class="closebttn"><i class="fas fa-times fa-2x"></i></a>
+                      <a href="#0" class="closebttn six" onclick="closeBtn(this)"><i class="fas fa-times fa-2x"></i></a>
                   </div>
                   <p>
                    I met Christians on Campus when I was a sophomore on campus about 7 years ago, and it has been one of the greatest things I could have ever done! 
@@ -298,7 +298,7 @@
                    I am pursuing a different career path now, but I still attend as many events as I can, and I still love being part of this group! 
                    I'm truly grateful for this group of people who not only walk the Christian life with me, but who have also become some of my closest and dearest friends.
                   </p>
-                 <a href="#0" class="readmore six"  onclick="sp(this)"></a>
+                 <a href="#0" class="readmore six readmore-six"  onclick="openBtn(this)"></a>
                 </div>
               </div>
             </div>
@@ -317,27 +317,6 @@
         </a>
     </div>
 </div>
-
-<script>
-  
-  function sp(obj) {
-    var bbb = $(obj).attr('class');
-    var cool = bbb.split(' ');
-    var ccc = cool[1];
-    
-    $('.content' + '-' + ccc).toggleClass('full');
-    $('.header' + '-' + ccc).toggleClass('collapse');
-    $('.readmore').toggle();
-  }
-  
-  
-  $('.closebttn').click(function() {
-    $('.content').removeClass('full');
-    $('.header').removeClass('collapse');
-    $('.readmore').toggle();
-  });
-  
-</script>
 
   <footer>
     <div class="container-fluid footer">
@@ -361,6 +340,7 @@
     </div>
   </footer>
   
+  <script src="./public/js/stories.js"></script>
   <script src="./public/js/nav.js"></script>
   
   <script>
