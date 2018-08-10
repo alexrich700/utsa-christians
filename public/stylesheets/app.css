@@ -871,6 +871,47 @@
   color: #000;
 }
 
+@media (max-width: 1085px) {
+  .vc-yellow .vc-custom-light {
+    font-size: 22px;
+  }
+  
+  .vc-blue .vc-custom-light {
+    font-size: 22px;
+  }
+  
+  .vc-yellow .vc-custom-bright {
+    line-height: 36px;
+    font-size: 30px;
+  }
+  
+  .vc-blue .vc-custom-bright {
+    line-height: 36px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .vc-yellow .vc-custom-light {
+    font-size: 20px;
+  }
+  
+  .vc-blue .vc-custom-light {
+    font-size: 20px;
+  }
+  
+  .vc-yellow .vc-custom-bright {
+    line-height: 36px;
+    font-size: 26px;
+  }
+  
+  .vc-blue .vc-custom-bright {
+    line-height: 36px;
+    font-size: 26px;
+  }
+}
+
+
 .events-hero {
     background-image: url("https://images.pexels.com/photos/895449/pexels-photo-895449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-repeat: no-repeat;
@@ -1299,7 +1340,7 @@
   margin: 0px;
   font-size: 28px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(0, 0, 0, 0.4);
+  /*background-color: rgba(0, 0, 0, 0.4);*/
   padding: 5px 100vw;
 }
 
