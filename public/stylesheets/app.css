@@ -33,9 +33,17 @@
     transition: all 0.4s ease 0s;
 }
 
+.events-list{
+  color:white;
+}
 
-.headItem span {
+
+.headItem-blue {
     color: #1eb2bb;
+}
+
+.headItem-yellow {
+    color: #ffeb7d;
 }
 
 .descText {
