@@ -1523,3 +1523,28 @@
     color: white;
     background-color: black;
 }
+
+.test-btn {
+  font-size:22px;
+  background-color: #ffeb7d;
+  color: #0fb1bb;
+  border-radius:25px;
+  width: 100%;
+  height: auto;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.test-btn-a {
+  width:100%;
+  padding-top: 2vh;
+  padding-right: 50%;
+}
+
+@media (max-width: 986px) {
+  .test-btn-a {
+    margin: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
