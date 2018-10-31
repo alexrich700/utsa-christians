@@ -11,11 +11,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
       <link rel="stylesheet" href="./public/stylesheets/app.css" type="text/css">
-      <link rel="stylesheet" href="./public/stylesheets/nav.css" type="text/css">
-      <link rel="stylesheet" href="./public/stylesheets/hero.css" type="text/css">
       
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -291,51 +288,6 @@
     
 </div>
 
-<script>
-    $('.carousel').carousel({
-    pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
-    });
-    
-    $(".carousel").swipe({
-    
-      swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-    
-        if (direction == 'left') $(this).carousel('next');
-        if (direction == 'right') $(this).carousel('prev');
-    
-      },
-      allowPageScroll:"vertical"
-    
-    });
-    
-    
-    
-    
-    const second = 1000,
-    minute = second * 60,
-    hour = minute * 60,
-    day = hour * 24;
-
-    let countDown = new Date('Sept 4, 2018 0:00:00').getTime(),
-    x = setInterval(function() {
-
-    let now = new Date().getTime(),
-        distance = countDown - now;
-
-        document.getElementById('days').innerText = Math.floor(distance / (day)),
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-    }, second)
-    
-    $(document).ready(function(){
-      $(".show-more-btn").click(function(){
-            $(".show-more").toggle("slow")
-            $(this).text($(this).text() == 'Show More' ? 'Show Less' : 'Show More');
-      });
-    });
-</script>
-
   <footer>
     <div class="container-fluid footer">
       <div class="row">
@@ -359,20 +311,6 @@
   </footer>
   
   <script src="./public/js/nav.js"></script>
-  
-  <script>
-    if($(window).width() < 767) {
-      $('.contact-us-button').remove();
-    } else {
-      $('.contact-us-small-button').remove();
-    }
-    
-    if( $(window).width() < 767 ){
-        $( "img" ).removeClass( "w-100" );
-        $(".hide-img").hide();
-        $(".top-nav-off-mob").hide();
-    }
-  </script>
   
   </body>
 </html>
