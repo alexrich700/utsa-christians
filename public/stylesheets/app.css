@@ -1890,4 +1890,5 @@
   position: fixed;
   bottom: -4px;
   right: 10px;
+  display: none;
 }
