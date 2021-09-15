@@ -2,6 +2,11 @@ a {
 	color: #ffeb7d;
 }
 
+.navbar-brand img {
+	height: auto;
+	max-height: 75px;
+}
+
 .spaceDivide {
     padding: 65px 15px 65px 15px;
 }
