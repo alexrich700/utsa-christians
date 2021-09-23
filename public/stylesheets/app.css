@@ -27,7 +27,7 @@ a {
     background-color: transparent;
     
     /* Border styles */
-    border: 2px solid #f6b93b;
+    border: 2px solid #f15a23;
     border-radius: 20px;
     /*line-height: 17px;*/
     padding: 1px 20px;
@@ -37,8 +37,8 @@ a {
 
 .contact-us-button-mob:hover {
     color: white !important;
-    background: #f6b93b;
-    border-color: #f6b93b !important;
+    background: #f15a23;
+    border-color: #f15a23 !important;
     transition: all 0.4s ease 0s;
 }
 
@@ -1814,7 +1814,7 @@ a {
     background-color: transparent;
     
     /* Border styles */
-    border: 2px solid #f6b93b;
+    border: 2px solid #f15a23;
     border-radius: 20px;
     /*line-height: 17px;*/
     padding: 1px 20px;
@@ -1824,8 +1824,8 @@ a {
 
 .contact-us-button:hover {
     color: white !important;
-    background: #f6b93b;
-    border-color: #f6b93b !important;
+    background: #f15a23;
+    border-color: #f15a23 !important;
     transition: all 0.4s ease 0s;
 }
 
