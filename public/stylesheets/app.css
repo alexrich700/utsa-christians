@@ -789,7 +789,7 @@ a {
 .vc-blue {
     padding-right: 75px !important;
     padding-left: 75px !important;
-    box-shadow: inset 0 0 0 1000px 	rgba(30,178,187,0.6);
+    box-shadow: inset 0 0 0 1000px 	rgba(11, 35, 63,0.6);
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -798,7 +798,7 @@ a {
 .vc-yellow {
     padding-right: 75px !important;
     padding-left: 75px !important;
-    box-shadow: inset 0 0 0 1000px rgba(255,255,0,0.4);
+    box-shadow: inset 0 0 0 1000px rgba(241, 90, 35,0.4);
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
