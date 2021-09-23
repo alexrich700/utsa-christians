@@ -1,5 +1,5 @@
 a {
-	color: #ffeb7d;
+	color: #f15a23;
 }
 
 .navbar-brand img {
@@ -48,11 +48,11 @@ a {
 
 
 .headItem-blue {
-    color: #1eb2bb;
+    color: #0b233f;
 }
 
 .headItem-yellow {
-    color: #ffeb7d;
+    color: #f15a23;
 }
 
 .descText {
@@ -328,7 +328,7 @@ a {
 }
 
 .freshman-connect {
-  background-color: #0fb1bb;
+  background-color: #0b233f;
   height: 23vh;
   min-width: 100%;
 }
@@ -340,7 +340,7 @@ a {
 
 
 .freshman-connect-title {
-  color: #ffeb7d;
+  color: #f15a23;
   font-size: 30px;
   font-weight: 700;
   font-family: 'Montserrat';
@@ -543,7 +543,7 @@ a {
 @media (max-width: 790px){
   
   .freshman-connect-title {
-    color: #ffeb7d;
+    color: #f15a23;
     font-size: 28px;
     font-weight: 700;
     text-align: center;
@@ -642,7 +642,7 @@ a {
 }
 
 .time {
-  color: #ffeb7d;
+  color: #f15a23;
   display: block;
   font-size: 36px;
   font-weight: 700;
@@ -679,7 +679,7 @@ a {
 }
 
 .vc-custom-bright {
-  color: #ffeb7d;
+  color: #f15a23;
   letter-spacing: 0.05em;
   line-height: 53px;
   font-size: 36px;
@@ -705,7 +705,7 @@ a {
 .show-more-btn {
   display: block; 
   margin: 3vh auto 5vh auto;
-  background-color: #1eb2bb;
+  background-color: #0b233f;
   color: #fff;
   font-family: 'Montserrat';
   text-transform: uppercase;
@@ -748,7 +748,7 @@ a {
     margin-top: 25vh;
     font-size: 100px;
     font-weight: 700;
-    color: rgb(255, 235, 125);
+    color: #f15a23;
     font-family: Montserrat;
     line-height: 139px;
     max-width: 100%;
@@ -839,7 +839,7 @@ a {
 }
 
 .vc-yellow .vc-custom-bright {
-    color: #33DAFF;
+    color: #0b233f;
     letter-spacing: 0.05em;
     line-height: 53px;
     font-size: 36px;
@@ -859,7 +859,7 @@ a {
 }
 
 .vc-blue .vc-custom-bright {
-    color: #ffeb7d;
+    color: #f15a23;
     letter-spacing: 0.05em;
     line-height: 53px;
     font-size: 36px;
@@ -892,11 +892,11 @@ a {
 }
 
 .modal-btn-events-yellow {
-  background-color: #1eb2bb;
+  background-color: #0b233f;
 }
 
 .modal-btn-events-blue {
-  background-color: rgb(255, 235, 125);
+  background-color: #f15a23;
   color: #000;
 }
 
@@ -960,7 +960,7 @@ a {
     text-align: center;
     font-size: 80px;
     font-weight: 700;
-    color: rgb(255, 235, 125);
+    color: #f15a23;
     font-family: Montserrat;
     line-height: 30px;
     max-width: 100%;
@@ -973,7 +973,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    color: rgb(255, 235, 125);
+    color: #f15a23;
     font-family: Montserrat;
     line-height: 30px;
     max-width: 100%;
@@ -1028,7 +1028,7 @@ a {
 }
 
 .event-time {
-  color: #ffeb7d;
+  color: #f15a23;
   display: block;
   font-size: 36px;
   font-weight: 700;
@@ -1533,7 +1533,7 @@ a {
 }
 
 .social-icon:hover {
-  color: #1eb2bb !important; 
+  color: #0b233f !important; 
 }
 
 
@@ -1547,8 +1547,8 @@ a {
 
 .test-btn {
   font-size:22px;
-  background-color: #ffeb7d;
-  color: #0fb1bb;
+  background-color: #f15a23;
+  color: #0b233f;
   border-radius:25px;
   width: 100%;
   height: auto;
@@ -1608,7 +1608,7 @@ a {
 .carousel-head {
     font-size: 139px;
     font-weight: 700;
-    color: rgb(255, 235, 125);
+    color: #f15a23;
     font-family: Montserrat;
     line-height: 139px;
     max-width: 100%;
@@ -1656,7 +1656,7 @@ a {
     .carousel-head {
         font-size: 80px;
         font-weight: 700;
-        color: rgb(255, 235, 125);
+        color: #f15a23;
         font-family: Montserrat;
         line-height: 80px;
         max-width: 100%;
@@ -1691,7 +1691,7 @@ a {
     }
 }
 .top-nav-test {
-    background: #1eb2bb;;
+    background: #0b233f;;
     color: white;
     height: 35px;
     position: relative;
@@ -1726,7 +1726,7 @@ a {
 }
 
 .social-icon-head:hover {
-  color: #ffeb7d !important; 
+  color: #f15a23 !important; 
 }
 
 .navbar {
