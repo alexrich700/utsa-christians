@@ -1587,7 +1587,7 @@ a {
     background-position: right;
     background-repeat: no-repeat !important;
     height: auto;
-    height: 100vh;
+/*     height: 100vh; */
 }
 
 .carousel-caption {
@@ -1662,9 +1662,9 @@ a {
         max-width: 100%;
     }
     
-    .carousel img {
+/*     .carousel img {
         width: auto;
-    }
+    } */
 }
 
 @media (max-width: 475px) {
